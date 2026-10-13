@@ -34,7 +34,7 @@ Modern versions of Winetricks include `mfplat` inside the `mf` verb, but you mus
    WINEPREFIX=$HOME/.local/share/anime-game-launcher/prefix/ winecfg
    ```
 2. Navigate to the **Libraries** (Bibliotheken) tab.
-3. In the **"New override for library"** input field, type **`mfp`** and click **Add**.
+3. In the **"New override for library"** input field, type **`mf`** and click **Add**.
 4. Repeat the same step for **`mfplat`** (Enhanced Video Renderer) and click **Add**.
 5. Repeat the same step for **`evr`** (Enhanced Video Renderer) and click **Add**.
 6. Verify that **`mf`**, **`mfplat`**, and **`evr`** are all present in the existing overrides list and explicitly set to **(native, builtin)**.
